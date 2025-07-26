@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Thumbnail Idea Generator | Free Tool</title>
+    <meta name="description" content="Generate professional YouTube thumbnail ideas in seconds. Free tool for content creators.">
+    <meta name="keywords" content="youtube, thumbnail, generator, content creator, video marketing">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🖼️</text></svg>">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 YouTube Thumbnail Idea Generator</h1>
+            <p>Generate compelling thumbnail ideas for your YouTube videos in seconds</p>
+        </header>
+
+        <div class="generator-section">
+            <div class="input-group">
+                <label for="video-topic">Enter your video topic:</label>
+                <input type="text" id="video-topic" placeholder="e.g., How to start a YouTube channel, Cooking pasta, etc." autocomplete="off">
+                <button id="generate-btn" class="generate-button">Generate Thumbnail Ideas</button>
+            </div>
+
+            <div class="tips-section">
+                <h3>💡 Pro Tips for Better Thumbnails:</h3>
+                <ul>
+                    <li>Use large, readable text (viewer should read from 3 feet away)</li>
+                    <li>Include facial expressions that convey emotion</li>
+                    <li>Use high contrast colors (avoid pastels)</li>
+                    <li>Add numbers when possible (increases CTR by 36%)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="analyzer-section">
+            <h3>🔍 Thumbnail Analyzer:</h3>
+            <textarea id="analyze-text" placeholder="Paste your thumbnail text to analyze..."></textarea>
+            <button id="analyze-btn" class="analyze-button">Analyze Thumbnail</button>
+            <div id="analysis-results" class="analysis-results"></div>
+        </div>
+
+        <div class="results-section" id="results-section">
+            <h2>🖼️ Thumbnail Ideas:</h2>
+            <div id="results-container" class="results-container">
+                <div class="placeholder-message">
+                    <p>Enter a video topic above and click "Generate Thumbnail Ideas" to get started!</p>
+                    <div class="example-ideas">
+                        <h3>Example Topics to Try:</h3>
+                        <div class="examples">
+                            <span class="example-tag">How to start a YouTube channel</span>
+                            <span class="example-tag">Cooking pasta</span>
+                            <span class="example-tag">Fitness workout routine</span>
+                            <span class="example-tag">Tech reviews</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ad-section top-ad">
+            <div class="ad-placeholder header-ad">
+                <div class="ad-label">Advertisement</div>
+                <div class="ad-content">Support this free tool</div>
+            </div>
+        </div>
+
+        <div class="info-section">
+            <h2>Why Great Thumbnails Matter</h2>
+            <div class="info-cards">
+                <div class="info-card">
+                    <h3>90% Click-Through Rate</h3>
+                    <p>Thumbnails drive 90% of YouTube click-through rates</p>
+                </div>
+                <div class="info-card">
+                    <h3>First Impression</h3>
+                    <p>Your thumbnail is often the first thing viewers see</p>
+                </div>
+                <div class="info-card">
+                    <h3>Brand Recognition</h3>
+                    <p>Consistent thumbnails build channel recognition</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="ad-section bottom-ad">
+            <div class="ad-placeholder footer-ad">
+                <div class="ad-label">Advertisement</div>
+                <div class="ad-content">Keep this tool free</div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Made with ❤️ for YouTube Creators | This is a free tool for educational purposes</p>
+            <p><a href="#" id="privacy-link">Privacy Policy</a> | <a href="#" id="terms-link">Terms of Use</a></p>
+        </footer>
+    </div>
+
+    <div id="notification" class="notification">Copied to clipboard!</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
